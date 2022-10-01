@@ -1,0 +1,79 @@
+@font-face {
+  font-family: Godzilla;
+  src: url("../../fonts/Godzilla.ttf");
+}
+
+@font-face {
+  font-family: SoccerLeague;
+  src: url("../../fonts/SoccerLeague.ttf");
+}
+
+@font-face {
+  font-family: SoccerLeagueItalic;
+  src: url("../../fonts/SoccerLeague-Italic.ttf");
+}
+
+@font-face {
+  font-family: PoppinsLight;
+  src: url("../../fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("../../fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: PoppinsMedium;
+  src: url("../../fonts//Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: PoppinsBold;
+  src: url("../../fonts//Poppins-Bold.ttf");
+}
+
+form {
+  padding: 0 20px;
+}
+
+form input[type="text"] {
+  width: 100%;
+  padding: 7px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #0278ee;
+  color: white;
+  border: none;
+  margin: 6px 0;
+}
+
+form input[type="text"]::-webkit-input-placeholder {
+  color: black;
+}
+
+form input[type="text"]:-ms-input-placeholder {
+  color: black;
+}
+
+form input[type="text"]::-ms-input-placeholder {
+  color: black;
+}
+
+form input[type="text"]::placeholder {
+  color: black;
+}
+
+form button {
+  margin: 10px auto;
+  padding: 7px 20px;
+  display: block;
+  background: aliceblue;
+  border: none;
+  width: 100%;
+}
+
+form button:hover {
+  background: #b1dbff;
+}
+/*# sourceMappingURL=readinglist.css.map */

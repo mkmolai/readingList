@@ -1,0 +1,60 @@
+// @import './Godzilla.ttf';
+
+@font-face{
+    font-family: Godzilla;
+    src: url('../../fonts/Godzilla.ttf');
+}
+@font-face{
+    font-family: SoccerLeague;
+    src: url('../../fonts/SoccerLeague.ttf')
+}
+@font-face{
+    font-family: SoccerLeagueItalic;
+    src: url('../../fonts/SoccerLeague-Italic.ttf')
+}
+@font-face{
+    font-family: PoppinsLight;
+    src: url('../../fonts/Poppins-Regular.ttf')
+}
+@font-face{
+    font-family: Poppins;
+    src: url('../../fonts/Poppins-Regular.ttf')
+}
+@font-face{
+    font-family: PoppinsMedium;
+    src: url('../../fonts//Poppins-Medium.ttf')
+}
+@font-face{
+    font-family: PoppinsBold;
+    src: url('../../fonts//Poppins-Bold.ttf')
+}
+
+
+form{
+    padding: 0 20px;
+    input[type="text"]{
+        width: 100%;
+        padding: 7px;
+        box-sizing: border-box;
+        background: rgb(2, 120, 238);
+        color: white;
+        border: none;
+        margin: 6px 0;
+        &::placeholder{
+            color: black;
+
+        }
+    }
+    button{
+        margin: 10px auto;
+        padding: 7px 20px;
+        display: block;
+        background: aliceblue;
+        border: none;
+        width: 100%;
+        &:hover{
+            background: rgb(177, 219, 255);
+        }
+
+    }
+}
